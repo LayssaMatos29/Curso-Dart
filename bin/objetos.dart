@@ -5,4 +5,10 @@ void main(List<String> args) {
   String sabor = "Doce e cítrica";
   int diasDesdeColheita = 40;
   bool isMadura;
+
+  if (diasDesdeColheita >= 30) {
+    isMadura = true;
+  } else {
+    isMadura = false;
+  }
 }
